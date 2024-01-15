@@ -1,9 +1,9 @@
 # Termostat
 
 Pomocí kompozice naprogramujte termostat. Součástky/komponenty:
-- teploměr:
+- **teploměr**:
   - umí vrátit aktuální teplotu v místnosti
-- spínač topení:
+- **spínač topení**:
   - umí vrátit stav zde je zapnuto/vypnuto
   - umí zapnout/vypnout
 
@@ -15,3 +15,9 @@ Logika, kterou bude termostat umět:
 Z toho vyplývá konfigurace/stav termostatu:
 - cílová teplota
 - perioda, se kterou kontroluje teplotu
+
+Hodnotím:
+- bez mypy errorů/warningů!
+- čitelnost
+- čistotu kódu
+- univerzálnost: programujeme pomocí kontraktů
