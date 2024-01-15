@@ -13,8 +13,21 @@ Logika, kterou bude termostat umět:
 - pokud je dostatečná: vypne topení
 
 Z toho vyplývá konfigurace/stav termostatu:
-- cílová teplota
+- cílová teplota: stačí nastavit jednou v konstruktoru
 - perioda, se kterou kontroluje teplotu
+
+Termostat o sobě bude umět dát vědět:
+- aktuální nastavená cílová teplota
+- aktuální teplota v místnosti
+- zda se topí nebo ne
+
+## Bonusy
+- naprogramujte hysterezi/setrvačnost
+- dodělejte možnost měnit parametry termostatu již za běhu
+  - stačí když se zohlední při dalším probuzení
+  - pokud byste chtěli umět zohlednit konfiguraci hned, budete muset pracovat s thready: https://stackoverflow.com/questions/5114292/break-interrupt-a-time-sleep-in-python
+- konfigurovatelná funkce, která bude umět vyhodnotit, zda se má sepnout topení nebo nikoliv
+  - předávat v konstruktoru (lambda/kontrakt)
 
 ## Hodnocení
 Dejte pozor zejména na:
@@ -23,4 +36,4 @@ Dejte pozor zejména na:
 - čistotu kódu
 - univerzálnost: programujeme pomocí kontraktů
 
-Váha známky 4.
+Možnost získat známky váhy 4.
