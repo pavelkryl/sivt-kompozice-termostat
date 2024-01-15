@@ -38,4 +38,4 @@ Dejte pozor zejména na:
 - čistotu kódu
 - univerzálnost: programujeme pomocí kontraktů
 
-Možnost získat známky váhy 4.
+Možnost získat známku váhy 4.
