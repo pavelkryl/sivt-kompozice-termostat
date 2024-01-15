@@ -7,16 +7,18 @@ Pomocí kompozice naprogramujte termostat. Součástky/komponenty:
   - umí vrátit stav zde je zapnuto/vypnuto
   - umí zapnout/vypnout
 
+## Co umí
+
 Logika, kterou bude termostat umět:
 - běží a hlídá zda teplota není příliš vysoká/nízká
 - pokud je nízká: sepne topení
 - pokud je dostatečná: vypne topení
 
-Z toho vyplývá konfigurace/stav termostatu:
-- cílová teplota: stačí nastavit jednou v konstruktoru
+Z toho vyplývá konfigurace/stav termostatu, stačí nastavit v konstruktoru:
+- cílová teplota na kterou se vytápí
 - perioda, se kterou kontroluje teplotu
 
-Termostat o sobě bude umět dát vědět:
+Termostat o sobě bude umět dát vědět, co schopnost to metoda:
 - aktuální nastavená cílová teplota
 - aktuální teplota v místnosti
 - zda se topí nebo ne
@@ -29,7 +31,7 @@ Termostat o sobě bude umět dát vědět:
 - konfigurovatelná funkce, která bude umět vyhodnotit, zda se má sepnout topení nebo nikoliv
   - předávat v konstruktoru (lambda/kontrakt)
 
-## Hodnocení
+# Hodnocení
 Dejte pozor zejména na:
 - bez mypy errorů/warningů!
 - čitelnost
