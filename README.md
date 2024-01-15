@@ -16,8 +16,11 @@ Z toho vyplývá konfigurace/stav termostatu:
 - cílová teplota
 - perioda, se kterou kontroluje teplotu
 
-Hodnotím:
+## Hodnocení
+Dejte pozor zejména na:
 - bez mypy errorů/warningů!
 - čitelnost
 - čistotu kódu
 - univerzálnost: programujeme pomocí kontraktů
+
+Váha známky 4.
